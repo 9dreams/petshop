@@ -220,7 +220,7 @@ body {
   
   /* Add some padding inside the card container */
   .container {
-    padding: 20px 16px;
+    padding: 40px 1px;
   }
 
 @-webkit-keyframes inM {
