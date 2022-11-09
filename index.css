@@ -15,9 +15,9 @@ body {
 
 .nav {
     width: 100%;
-    height: 65px;
+    height: 85px;
     position: fixed;
-    line-height: 65px;
+    line-height: center;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ body {
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 .nav div.logo a {
@@ -204,6 +204,25 @@ body {
     animation: inBtm 0.8s forwards;
 }
 
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  img {
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 40px 40px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 20px 16px;
+  }
+
 @-webkit-keyframes inM {
     50% {
         -webkit-transform: rotate(0deg);
@@ -361,3 +380,4 @@ body {
 		padding:2%;
 	}
 }
+
