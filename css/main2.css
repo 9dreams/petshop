@@ -1,0 +1,25 @@
+#footer
+{
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+
+#h4footer
+{
+    border-bottom: 1px solid grey;
+}
+
+#featured
+{
+    border: 0px solid white;
+}
+
+#subscribe
+{
+    margin-bottom: 10px;
+}
+
+#privacy
+{
+    text-decoration: underline;
+}
